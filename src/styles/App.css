@@ -1,0 +1,33 @@
+#root {
+    display: flex;
+    flex-direction: column; 
+    justify-content:start; 
+    align-items: center; 
+    background-color: #f1f1f1;
+}
+
+
+.card-list-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 2rem;
+  }
+  
+  @media (min-width: 600px) {
+    .card-list-container {
+      padding: 1rem;
+    }
+    .not-found-image {
+      width: 500px;
+    }
+    
+  }
+
+  @media (max-width: 599px) {
+    .not-found-image {
+      width: 120px; 
+    }
+  }
+
+
